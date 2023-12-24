@@ -98,6 +98,10 @@
     grid-area: b7;
     width: 580px;
   }
+
+  button:hover {
+    border: 1px solid black;
+  }
 		
 }
 
