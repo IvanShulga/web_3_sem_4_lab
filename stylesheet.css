@@ -1,0 +1,69 @@
+html, body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+body {
+    overflow: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+button{
+  background-color: white;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  cursor: pointer;
+}
+
+.main{ 
+		display: grid;
+}
+
+.block1 { 
+		color: white;
+    background-color: #18c5cc; 
+}
+
+.block2 {
+    background-color: rgb(255, 189, 103);
+}
+
+.block3 {
+		background-color: rgb(255, 189, 103);
+}
+
+.block4 {
+    display: grid;
+    background-color: white;
+    color: #0cc2ca;
+    text-align: center;
+    text-transform: uppercase;
+    align-content: center;
+}
+
+.block5 {
+    background-color: rgb(255, 189, 103);
+}
+
+.block6 {
+    background-color: rgb(255, 189, 103);
+}
+
+.block7 {
+    background-color: #ff693e;
+    color: white;
+}

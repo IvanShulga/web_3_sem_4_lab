@@ -1,0 +1,160 @@
+@media screen and (min-width : 1000px) {
+
+  div{
+    width: 280px;
+    height: 210px;
+  }
+
+  .main{
+    grid-template-areas: 
+            "b1 b2 b3 "
+            "b1 b4 b5 "
+            "b6 b7 b7 "
+            ;
+        
+    width: 880px;
+    height: 670px;
+    grid-gap: 20px;
+  }
+
+  .header1, .header2, .textbox1, .textbox2{
+    padding: 20px;
+  }
+
+  .header1,.header2{
+    font-size: 25px;
+    padding-bottom: 0px;
+    height: 55px;
+    width: 240px;
+  }
+		
+  .header2{
+    font-size: 18px;
+    height: 28px;
+  }
+
+  .textbox1{
+    width: 240px;
+    height: 150px;
+  }
+
+  .textbox2{
+    width: 540px;
+    height: 100px;
+  }
+
+  .textbox1, .textbox2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  button{
+    height: 30px;
+    width: 100px;
+    margin: 20px;
+    margin-top: 0px;
+    font-size: 10px;
+  }
+		
+  button:hover {
+  	border: 1px solid black;
+  }
+
+  .block1 {
+    grid-area: b1;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+		
+  .block2 {
+    grid-area: b2;
+  }
+		
+  .block3 {
+    grid-area: b3;
+  }
+		
+  .block4 { 
+    grid-area: b4;
+    outline: 2px solid #0cc2ca;
+    font-size: 25px;
+    width: 240px;
+    height: 170px;
+    padding: 20px;
+  }
+		
+  .block5 {
+    grid-area: b5;
+  }
+		
+  .block6 {
+    grid-area: b6;
+  }
+		
+  .block7 {
+    grid-area: b7;
+    width: 580px;
+  }
+		
+}
+
+@media screen and (max-width: 1000px) {
+  
+    body {
+      align-items:flex-start;
+    }
+    
+    .main{
+      grid-template-columns: 840px;
+      grid-template-rows: repeat(6, 630px);
+      grid-gap: 60px;
+      padding-top: 7%;
+      padding-bottom: 10%;
+    }
+    
+    button{
+      height: 10%;
+      width: 40%;
+      margin: 10%;
+      margin-top: 0px;
+      font-size: 2.5vw;
+    }
+    
+    .header1, .header2, .textbox1, .textbox2{
+      padding: 8%;
+    }
+    
+    .header1,.header2{
+      font-size: 6vw;
+      padding-bottom: 0px;
+      height: 22%;
+    }
+
+    .header2{
+      font-size: 5vw;
+      height: 7%;
+    }
+    
+    .textbox1, .textbox2{
+      padding-top: 5%;
+      font-size: 4vw;
+      width: 84%;
+      height: 50%;
+    }
+    
+    .textbox2{
+    height: 54%;
+    }
+    
+    .block4 {
+      border: 10px solid #18c5cc;
+      font-size: 7vw;
+    }
+ 
+    .block7 {
+      height: 900px;
+    }
+}
